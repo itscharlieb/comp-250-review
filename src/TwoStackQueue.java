@@ -13,11 +13,11 @@ interface IStringQueue{
 	void clear();
 }
 
-public class StringQueue implements IStringQueue{
+public class TwoStackQueue implements IStringQueue{
 	private Stack<String> inbox;
 	private Stack<String> outbox;
 	
-	public StringQueue(){
+	public TwoStackQueue() {
 		inbox = new Stack<String>();
 		outbox = new Stack<String>();
 	}
