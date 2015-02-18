@@ -1,0 +1,14 @@
+Running Time of Standard Algorithms and Operations on Standard Data Structures:
+	http://bigocheatsheet.com/
+
+Master Method:
+	http://www.csd.uwo.ca/~moreno/CS424/Ressources/master.pdf
+
+Induction Problems:
+	http://s3.amazonaws.com/docuum/attachments/1413/Practice%20midterm%20questions.pdf?1228627496
+
+Docuum in case you didn't know:
+	http://www.docuum.com/McGill/COMP/250
+
+Hackernews - Reddit for Computer Scientists:
+	https://news.ycombinator.com/
