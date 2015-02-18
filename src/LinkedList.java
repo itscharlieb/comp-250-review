@@ -25,12 +25,16 @@ public class LinkedList {
 		tmp.data = data;
 	}
 	
-	public Object remove(Object data){
+	public Object removeFirst(Object data){
 		ListNode tmp = head;
-		Object toReturn = null;
+		Object toReturn = null;	
 		while(tmp.next != null){
 			
 		}
+	}
+	
+	public Object remove(int index){
+		
 	}
 }
 

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 /**
  * @author Charlie Bloomfield
@@ -40,6 +39,7 @@ public class BinarySearch {
 		} catch (NumberNotFoundException e) {
 			System.out.println("Number not found!");
 		}
+	}
 }
-
 class NumberNotFoundException extends Exception{}
+
