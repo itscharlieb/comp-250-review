@@ -7,6 +7,13 @@ Master Method:
 Induction Problems:
 	http://s3.amazonaws.com/docuum/attachments/1413/Practice%20midterm%20questions.pdf?1228627496
 
+Linked List:
+	https://www.cs.bu.edu/teaching/c/linked-list/delete/
+
+Heaps:
+	http://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html
+	http://courses.cs.washington.edu/courses/cse373/11wi/homework/5/BinaryHeap.java
+
 Docuum in case you didn't know:
 	http://www.docuum.com/McGill/COMP/250
 

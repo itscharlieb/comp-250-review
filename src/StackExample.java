@@ -7,13 +7,23 @@ import java.util.LinkedList;
  */
 
 public class StackExample {
-
+	public static ArrayStack giveMeAnArrayStack(){
+		return new ArrayStack();
+	}
+	
+	public static LinkedListStack giveMeALinkedListStack(){
+		return new LinkedListStack();
+	}
 }
 
 class ArrayStack{
 	private int[] a;
 	private int head;
 
+	/*
+	 * Here's a stack implemented with an array. If you try to put an 11th
+	 * element in it, the program will crash, but that's beside the point.
+	 */
 	public ArrayStack(){
 		a = new int[10];
 		head = 0;
@@ -33,7 +43,11 @@ class ArrayStack{
 }
 
 class LinkedListStack{
-	private LinkedList<Integer> a = new LinkedList<Integer>();
+	private LinkedList<Integer> a;
+	
+	public LinkedListStack(){
+		a = new LinkedList<Integer>();
+	}
 	
 	public void push(Integer x){
 		a.add(x);
